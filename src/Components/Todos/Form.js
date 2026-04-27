@@ -28,9 +28,7 @@ const AddtoText = (e)=>{
     border: "2px solid black",
     padding: '10px',
     borderRadius: '10px',
-    // height:"100px",
-    // display:"flex",
-    // justifyContent:"center"
+   
   }}>
   
   <Grid  
@@ -78,60 +76,3 @@ export default Form
 
 
 
-// import React, { useState } from 'react'
-// import { Grid, TextField, Button } from '@mui/material'
-
-// function Form({ add }) {
-//   const [task, setTask] = useState("")
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault()
-
-//     if (task.trim() === "") {
-//       alert("Please Enter task")
-//       return
-//     }
-
-//     add(task)      // send to parent
-//     setTask("")    // clear input
-//   }
-
-//   return (
-//     <Grid
-//       container
-//       component="form"
-//       spacing={2}
-//       onSubmit={handleSubmit}
-//       sx={{
-//         border: "2px solid black",
-//         padding: 2,
-//         borderRadius: 2,
-//         width: "700px",
-//         margin: "20px auto"
-//       }}
-//     >
-//       {/* 10 cols */}
-//       <Grid item xs={10}>
-//         <TextField
-//           fullWidth
-//           label="Enter task"
-//           value={task}
-//           onChange={(e) => setTask(e.target.value)}
-//         />
-//       </Grid>
-
-//       {/* 2 cols */}
-//       <Grid item xs={2}>
-//         <Button
-//           fullWidth
-//           type="submit"
-//           variant="contained"
-//         >
-//           ADD
-//         </Button>
-//       </Grid>
-//     </Grid>
-//   )
-// }
-
-// export default Form
